@@ -1,0 +1,158 @@
+<DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="vidth=device-vidth, ini">
+        <title>Шпора</title>
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="block_with_nav">
+                <nav class="nav">
+                    <a class="nav_el" href="index.html">HOME</a>
+                    <a class="nav_el" href="html.html">HTML</a>
+                    <a class="nav_el" href="css.html">CSS</a>
+                    <a class="nav_el" href="js.html">JS</a>
+                    <a class="nav_el" href="https://doka.guide/">Доп. информация</a>
+                </nav>
+                <img class="logo" src="Hello.svg" alt="логотип">
+            </div>
+        </header>
+        <main>
+            <section class="js">
+                <div>
+                    <h2 class="title">JavaScript</h2>
+                    <ul class="content-titles">
+                        <li><a class="content-title" href="#Core">Основы</a></li>
+                        <li><a class="content-subtitle" href="#if">- if</a></li>
+                        <li><a class="content-subtitle" href="#switch">- switch</a></li>
+                        <li><a class="content-subtitle" href="#while">- while</a></li>
+                        <li><a class="content-subtitle" href="#for">- for</a></li>
+                        <li><a class="content-title" href="#types">Примитивные типы данных</a></li>
+                        <li><a class="content-title" href="#function">Функция</a></li>
+                        <li><a class="content-subtitle" href="#FD">- Function Declaration</a></li>
+                        <li><a class="content-subtitle" href="#FE">- Function Expression</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="title" id="Core">Основы</h2>
+                    <div class="split">
+                        <h2 class="tag_title" id="if">if...else</h2>
+                        <div class="tag_box">
+                            <div>
+                                <h3>if (условие) {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>    console.log('Выполнится, если условие истинное (true)')</h3>
+                                <h3>  } else {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>    console.log('Выполнится, если условие ложное (false)')</h3>
+                                <h3>  }</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="switch">switch</h2>
+                        <div class="tag_box">
+                            <div>
+                                <h3>switch (имя_переменной_значение_которой_сравниваем) {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>case значение:</h3>
+                                <h3><span style="color: #2f80ed;">aaaaaa</span>// код</h3>
+                                <h3><span style="color: #2f80ed;">aaaaaa</span>break</h3>
+                                <h3>  }</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="while">while</h2>
+                        <div class="tag_box">
+                            <div>
+                                <h3>while (условие) {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>//тело цикла</h3>
+                                <h3>  }</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="for">for</h2>
+                        <div class="tag_box">
+                            <div>
+                                <h3>for (инициализация; условие; завершающая операция) {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>//тело цикла</h3>
+                                <h3>  }</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="title" id="types">Примитивные типы данных</h2>
+                    <div class="split">
+                        <h2 class="tag_title" id="number">number</h2>
+                        <div class="tag_box">
+                            <div class="one-block">
+                                <p class="example_title">number</p>
+                                <div class="example_background" style="width: fit-content; padding: 5px;">
+                                    <p>const int = 4</p>
+                                    <p>const decimal = 0.101</p>
+                                    <p>const sameDecimal = .101</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">string</p>
+                                <div class="example_background" style="width: fit-content; padding: 5px;">
+                                    <p>const double = "Hello, world"</p>
+                                    <p>const single = 'Hi'</p>
+                                    <p>const empty = ''</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">boolean</p>
+                                <div class="example_background" style="width: fit-content; padding: 5px;">
+                                    <p>// «Истина»</p>
+                                    <p>const truthyValue = true</p>
+                                    <p>// «Ложь»</p>
+                                    <p>const falsyValue = false</p>
+                                </div>
+                            </div>
+                            <div class="one-block" style="padding: 0 10px;">
+                                <p class="example_title">BigInt</p>
+                                <div class="example_background" style="width: fit-content; padding: 5px;">
+                                    <p>const biggy = 9997000254740991n</p>
+                                    <p>const alsoBig = BigInt(9997000254999999)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h2 class="title" id="function">Функция</h2>
+                    <div class="split">
+                        <h2 class="tag_title" id="FD">Function Declaration</h2>
+                        <div class="tag_box">
+                            <div>
+                                <h3>function hello(name) {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>alert(`Привет ${name}`)</h3>
+                                <h3>  }</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="FE">Function Expression</h2>
+                        <div class="tag_box">
+                            <div>
+                                <h3>const hello = function(name) {</h3>
+                                <h3><span style="color: #2f80ed;">aaa</span>alert(`Привет ${name}`)</h3>
+                                <h3>  }</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_block">
+                <p class="footer_text">Автор - Гедиев Карим</p>
+                <img class="logo" src="Hello.svg" alt="логотип">
+            </div>
+        </footer>
+    </body>

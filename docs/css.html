@@ -1,0 +1,475 @@
+<DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="vidth=device-vidth, ini">
+        <title>Шпора</title>
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="block_with_nav">
+                <nav class="nav">
+                    <a class="nav_el" href="index.html">HOME</a>
+                    <a class="nav_el" href="html.html">HTML</a>
+                    <a class="nav_el" href="css.html">CSS</a>
+                    <a class="nav_el" href="js.html">JS</a>
+                    <a class="nav_el" href="https://doka.guide/">Доп. информация</a>
+                </nav>
+                <img class="logo" src="Hello.svg" alt="логотип">
+            </div>
+        </header>
+        <main>
+            <section class="css">
+                <div>
+                    <h1 class="title">CSS</h1>
+                    <ul class="content-titles">
+                        <li><a class="content-title" href="#size">Размеры и отступы</a></li>
+                        <li><a class="content-subtitle" href="#width">- width</a></li>
+                        <li><a class="content-subtitle" href="#height">- height</a></li>
+                        <li><a class="content-subtitle" href="#padding">- padding</a></li>
+                        <li><a class="content-subtitle" href="#margin">- margin</a></li>
+                        <li><a class="content-title" href="#align">Выравнивание блоков</a></li>
+                        <li><a class="content-subtitle" href="#justify-content">- justify-content</a></li>
+                        <li><a class="content-subtitle" href="#align-content">- align-content</a></li>
+                        <li><a class="content-title" href="#borders">Рамки, обводки и тени</a></li>
+                        <li><a class="content-subtitle" href="#border-style">- border-style</a></li>
+                        <li><a class="content-subtitle" href="#border-...">- border-...</a></li>
+                    </ul>
+                    
+                </div>
+                <div>
+                    <h2 class="title" id="size">Размеры и отступы</h2>
+                    <div class="split">
+                        <h2 class="tag_title" id="width">width</h2>
+                        <div class="tag_box">
+                            <div class="one-block">
+                                <p class="example_title">width: 100%</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-top: 50px ;height: 50px; width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">width: 50%</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-top: 50px ;height: 50px; width: 50%"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">width: 100px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-top: 50px ;height: 50px; width: 100px"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">width: 7rem</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-top: 50px ;height: 50px; width: 7rem"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="height">height</h2>
+                        <div class="tag_box">
+                            <div class="one-block">
+                                <p class="example_title">height: 100%</p>
+                                <div class="example_background"  style="height: 50px;">
+                                    <div class="example_block" style="margin: auto; width: 50px; height: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">height: 50%</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: auto; width: 50px; height: 50%"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">height: 100px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: auto; width: 50px; height: 100px"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">height: 7rem</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: auto; width: 50px; height: 7rem"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="padding">padding</h2>
+                        <div class="tag_box">
+                            <div class="one-block">
+                                <p class="example_title">padding: </p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: 1em</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: 5% 0</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: 10px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: 10px 50px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: 10px 50px 20px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: 10px 50px 20px 0</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding: auto</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding-top: 44px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text" style="padding-top: 44px">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding-right: 44px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text" style="padding-right: 44px">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding-bottom: 44px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text" style="padding-bottom: 44px">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">padding-left: 44px</p>
+                                <div class="example_background">
+                                    <p class="example_padding-text" style="padding-left: 44px">hello, world hello, world hello, world hello, world hello, world hello, world</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <h2 class="tag_title" id="margin">margin</h2>
+                        <div class="tag_box">
+                            <div class="one-block">
+                                <p class="example_title">margin: </p>
+                                <div class="example_background">
+                                    <div class="example_block"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: 1em</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: 1em;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: 5% 0</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: 5% 0;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: 10px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: 10px;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: 10px 50px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: 10px 50px;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: 10px 50px 20px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: 10px 50px 20px;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: 10px 50px 20px 0</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: 10px 50px 20px 0;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin: auto</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin: auto;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin-top: 44px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-top: 44px;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin-right: 44px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-right: 44px;"></div>
+                                    
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin-bottom: 44px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-bottom: 44px;"></div>
+                                </div>
+                            </div>
+                            <div class="one-block">
+                                <p class="example_title">margin-left: 44px</p>
+                                <div class="example_background">
+                                    <div class="example_block" style="margin-left: 44px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="title" id="align">Выравнивание блоков</h2>
+                        <div class="split">
+                            <h2 class="tag_title" id="justify-content">justify-content</h2>
+                            <div class="tag_box">
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: start</p>
+                                    <div class="example_background" style="display: flex; justify-content: start; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: end</p>
+                                    <div class="example_background" style="display: flex; justify-content: end; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: left</p>
+                                    <div class="example_background" style="display: flex; justify-content: left; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: right</p>
+                                    <div class="example_background" style="display: flex; justify-content: right; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: center</p>
+                                    <div class="example_background" style="display: flex; justify-content: center; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: space-between</p>
+                                    <div class="example_background" style="display: flex; justify-content: space-between; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: space-around</p>
+                                    <div class="example_background" style="display: flex; justify-content: space-around; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block" style="min-width: 350px;">
+                                    <p class="example_title">justify-content: space-evenly</p>
+                                    <div class="example_background" style="display: flex; justify-content: space-evenly; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="split">
+                            <h2 class="tag_title" id="align-content">align-content</h2>
+                            <div class="tag_box">
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: start</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: start; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: end</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: end; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: left</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: left; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: right</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: right; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: center</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: center; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: space-between</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: space-between; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: space-around</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: space-around; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                                <div class="one-block__bigger" style="min-width: 350px;">
+                                    <p class="example_title">align-content: space-evenly</p>
+                                    <div class="example_background__bigger" style="display: flex; align-content: space-evenly; min-width: 300px;">
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                        <div class="example_block" style="margin: 5px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="title" id="borders">Рамки, обводки и тени</h2>
+                        <div class="split">
+                            <h2 class="tag_title" id="border-style">border-style</h2>
+                            <div class="tag_box">
+                                <div class="one-block">
+                                    <p class="example_title">border-style: solid</p>
+                                    <div class="example_background" style="border-style: solid; border-color: #2f80ed;"></div>
+                                </div>
+                                <div class="one-block">
+                                    <p class="example_title">border-style: dotted</p>
+                                    <div class="example_background" style="border-style: dotted; border-color: #2f80ed;"></div>
+                                </div>
+                                <div class="one-block">
+                                    <p class="example_title">border-style: dashed</p>
+                                    <div class="example_background" style="border-style: dashed; border-color: #2f80ed;"></div>
+                                </div>
+                                <div class="one-block">
+                                    <p class="example_title">border-style: double</p>
+                                    <div class="example_background" style="border-style: double; border-color: #2f80ed;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="split">
+                            <h2 class="tag_title" id="border-...">border-...</h2>
+                            <div class="tag_box">
+                                <div class="one-block">
+                                    <p class="example_title">border-color: red</p>
+                                    <div class="example_background" style="border-style: solid; border-color: red"></div>
+                                </div>
+                                <div class="one-block">
+                                    <p class="example_title">border-width: 10px</p>
+                                    <div class="example_background" style="border-style: solid; border-color: #2f80ed; border-width: 10px;"></div>
+                                </div>
+                                <div class="one-block">
+                                    <p class="example_title">border-radius: 6px</p>
+                                    <div class="example_background" style="border-style: solid; border-color: #2f80ed; border-radius: 6px;"></div>
+                                </div>
+                                <div class="one-block">
+                                    <p class="example_title">border-block: 5px solid #2f80ed;</p>
+                                    <div class="example_background" style="border-block: 5px solid #2f80ed;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_block">
+                <p class="footer_text">Автор - Гедиев Карим</p>
+                <img class="logo" src="Hello.svg" alt="логотип">
+            </div>
+        </footer>
+    </body>
